@@ -4,7 +4,7 @@
   *
   * Return: Always 0 (Success)
   */
-int print_alphabet_x10(void)
+void print_alphabet_x10(void)
 {
 	int i;
 	int j;
@@ -16,5 +16,6 @@ int print_alphabet_x10(void)
 			_putchar(j);
 		}
 		-putchar('\n');
+		return (0);
 	}
 }
