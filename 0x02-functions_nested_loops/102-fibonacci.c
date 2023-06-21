@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
-  *main - Prints first 50 Fibonacci numbers. stating with and 2. se[erated ny a comma followed by space
+  *main - Prints first 50 Fibonacci numbers. stating with and 2.
+  *seperated ny a comma followed by space
   *Return: Always 0
   */
 int main(void)
@@ -19,7 +20,7 @@ int main(void)
 
 			if (count == 49)
 				printf("\n");
-			else 
+			else
 				printf(", ");
 		}
 
