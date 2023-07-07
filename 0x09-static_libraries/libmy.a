@@ -1,0 +1,51 @@
+!<arch>
+0-isupper.o/    0           0     0     644     21        `
+int _isupper(int c);
+
+0-memset.o/     0           0     0     644     48        `
+char *_memset(char *s, char b, unsigned int n);
+0-strcat.o/     0           0     0     644     38        `
+char *_strcat(char *dest, char *src);
+1-isdigit.o/    0           0     0     644     21        `
+int _isdigit(int c);
+
+1-memcpy.o/     0           0     0     644     54        `
+char *_memcpy(char *dest, char *src, unsigned int n);
+1-strncat.o/    0           0     0     644     38        `
+char *_strcat(char *dest, char *src);
+100-atoi.o/     0           0     0     644     20        `
+int _atoi(char *s);
+2-strchr.o/     0           0     0     644     32        `
+char *_strchr(char *s, char c);
+2-strlen.o/     0           0     0     644     22        `
+int _strlen(char *s);
+2-strncpy.o/    0           0     0     644     38        `
+char *_strcpy(char *dest, char *src);
+3-islower.o/    0           0     0     644     21        `
+int _islower(int c);
+
+3-puts.o/       0           0     0     644     21        `
+void _puts(char *s);
+
+3-strcmp.o/     0           0     0     644     33        `
+int _strcmp(char *s1, char *s2);
+
+3-strspn.o/     0           0     0     644     45        `
+unsigned int _strspn(char *s, char *accept);
+
+4-isalpha.o/    0           0     0     644     21        `
+int _isalpha(int c);
+
+4-strpbrk.o/    0           0     0     644     39        `
+char *_strpbrk(char *s, char *accept);
+
+5-strstr.o/     0           0     0     644     45        `
+char *_strstr(char *haystack, char *needle);
+
+6-abs.o/        0           0     0     644     17        `
+int _abs(int n);
+
+9-strcpy.o/     0           0     0     644     38        `
+char *_strcpy(char *dest, char *src);
+_putchar.o/     0           0     0     644     22        `
+int _putchar(char c);
