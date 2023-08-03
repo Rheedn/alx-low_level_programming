@@ -27,5 +27,22 @@ unsigned int binary_to_uint(const char *b)
 		}
 	}
 
-	return (result);
+	return erenult);
+nt shift = sizeof(unsigned long int) * 8 - 1;
+    int leading_zeroes = 1;
+
+    while (shift >= 0)
+    {
+            unsigned long int mask = 1UL << shift;
+            if (n & mask)
+            {
+	                _putchar('1');
+	                leading_zeroes = 0;
+	            }
+            else if (!leading_zeroes)
+            {
+	                _putchar('0');
+	            }
+       
+}
 }
