@@ -3,16 +3,17 @@
 #define BUF_SIZE 1024
 
 /**
- * main - Copies the content of a file to another file.
- * @argc: The number of command-line arguments.
- * @argv: An array of command-line arguments.
+ * main - Copies content of file to another file.
+ * @argc: Number of command-line arguments.
+ * @argv: Array of command-line arguments.
  *
- * Return: On success, returns 0. On error, returns:
- * - 97 if the argument count is incorrect
- * - 98 if the source file cannot be read
- * - 99 if the destination file cannot be created or written to
- * - 100 if there's an issue with closing a file descriptor
+ * Return: On success 0. On error, returns:
+ * - 97 if argument count is incorrect
+ * - 98 if source file cannot be read
+ * - 99 if destination file cannot be created or written to
+ * - 100 if there's issue with closing a file descriptor
  */
+
 int main(int argc, char *argv[])
 {
 	int file_from, file_to, bytes_read, bytes_written;
