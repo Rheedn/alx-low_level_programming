@@ -11,7 +11,7 @@ void print_binary(unsigned long int n)
 	int count = 0;
 
 	for (i = 63; i >= 0; i--)
-		
+
 		if ((n >> i) & 1)
 		{
 			_putchar('1');
